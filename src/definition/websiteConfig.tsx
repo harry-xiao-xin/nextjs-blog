@@ -1,0 +1,42 @@
+type WebsiteConfigDTO={
+    name: string;
+    englishName: string;
+    author: string;
+    authorAvatar: string;
+    authorIntro: string;
+    logo: string;
+    multiLanguage: string;
+    notice: string;
+    websiteCreateTime: Date;
+    beianNumber: string;
+    qqLogin: number;
+    github: string;
+    gitee: string;
+    qq: string;
+    weChat: string;
+    weibo: string;
+    csdn: string;
+    zhihu: string;
+    juejin: string;
+    twitter: string;
+    stackoverflow: string;
+    touristAvatar: string;
+    userAvatar: string;
+    isCommentReview: number;
+    isEmailNotice: number;
+    isReward: number;
+    weiXinQRCode: string;
+    alipayQRCode: string;
+    favicon: string;
+    websiteTitle: string;
+    gonganBeianNumber: string;
+}
+type WebSitConfig={
+    articleCount: number;
+    talkCount: number;
+    categoryCount: number;
+    tagCount: number;
+    websiteConfigDTO: WebsiteConfigDTO;
+    viewCount: number;
+}
+export type {WebsiteConfigDTO, WebSitConfig}
